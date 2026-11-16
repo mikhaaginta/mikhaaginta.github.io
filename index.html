@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<!-- PERTEMUAN 1 & 2: Struktur HTML dasar, Navbar, Home, Services, dan About Me -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- Baris ini membuat website tampil benar di layar HP -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mikha aginta fransiska br ginting | Web Developer & Graphic Designer</title>
+  <!-- Menghubungkan file CSS (Pastikan nama file CSS Anda di folder adalah style.css) -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Kontainer utama: kotak putih di tengah halaman -->
+  <div class="page">
+
+    <!-- ==================== NAVBAR SECTION ==================== -->
+    <header class="navbar">
+      <div class="navbar-inner">
+        <a href="#home" class="logo">Mikha aginta fransiska br ginting</a>
+        <nav class="nav-links">
+          <a href="#home">HOME</a>
+          <a href="#about">ABOUT ME</a>
+          <a href="#work">WORK</a>
+          <a href="#contact">CONTACT</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- ==================== HOME SECTION ==================== -->
+    <section class="hero" id="home">
+      <div class="hero-text">
+        <h1>Hi There!</h1>
+        <span class="short-line"></span>
+        <h2>I'm Mikha aginta fransiska br ginting</h2>
+        <p class="label">Web Developer &amp; Graphic Designer</p>
+        <p class="hero-desc">
+          I build responsive websites and design professional visuals for businesses.
+        </p>
+        <div class="buttons">
+          <a href="mailto:mikha.aginta.f@mail.ukrim.ac.id" class="btn">HIRE ME</a>
+          <a href="#work" class="btn">VIEW MY WORK</a>
+        </div>
+      </div>
+
+      <div class="hero-photo photo-frame">
+        <img src="mikha.jpeg" alt="Foto Profil">
+      </div>
+    </section>
+
+    <!-- ==================== WHAT I DO SECTION ==================== -->
+    <section class="services">
+      <!-- Menyelaraskan dengan kelas .section-title di CSS Anda -->
+      <h2 class="section-title">What I Do</h2>
+      <!-- Menyelaraskan dengan kelas .center-line di CSS Anda untuk membuat garis ke tengah -->
+      <span class="short-line center-line"></span>
+
+      <!-- Mengubah dari .service-grid menjadi .services-grid sesuai CSS Anda (ditambah huruf 's') -->
+      <div class="services-grid">
+        <div class="service">
+          <div class="placeholder service-img">
+            <img src="mikha.jpeg" alt="Web Development">
+          </div>
+          <h3>WEB DEVELOPMENT</h3>
+          <p>I build fast, responsive website using modern web technologies, focusing on clean code, performance, and mobile-first design.</p>
+        </div>
+
+        <div class="service">
+          <div class="placeholder service-img">
+            <img src="mikha.jpeg" alt="Problem Solving">
+          </div>
+          <h3>PROBLEM SOLVING</h3>
+          <p>I develop problem-solving skills by learning to analyze problems, think logically, and find effective solutions through computational thinking and programming.</p>
+        </div>
+
+        <div class="service">
+          <div class="placeholder service-img">
+            <img src="mikha.jpeg" alt="Desain To Code">
+          </div>
+          <h3>DESAIN TO CODE</h3>
+          <p>I desain and convert visuals into responsive website, including UI layouts, course posters, and social media graphics with pixel-perfect accuracy.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== ABOUT ME SECTION ==================== -->
+    <!-- Membuka tag section dan menyatukan elemen foto serta teks di dalamnya agar efek grid 2 kolom aktif -->
+    <section class="about-section" id="about">
+      <div class="about-photo photo-frame">
+         <img src="mikha.jpeg" alt="Photo About ME">
+      </div>
+
+      <div class="about-text">
+        <!-- Memperbaiki tag judul yang rusak/typo sebelumnya -->
+        <h2 class="about-title">About Me</h2>
+        <span class="short-line"></span>
+        <p>I'm web developer and graphics designer with 4+ years of experience. I specialize in building responsive websites and creating clean, professional desains that help businesses grow online.</p>
+        <ul class="check-list">
+          <li>4+ years experience in web development</li>
+          <li>HTML, CSS, WordPress, Elementor</li>
+          <li>Desain To Code &amp; website setup expert</li>
+        </ul>
+      </div>
+    </section>
+    <!--==================FORTOFOLID  SECTION=================-->
+    <section class="portfolio" id="WORK">
+      <h2 class="section-title"> PORTOFOLID</h2>
+      <span class="short-line center-line"></span>
+
+      <div class=" portfolio-grid">
+        <a href="mikha.jpeg" class="project">
+          <div class="placeholder project-img">
+            <img src="mikha.jpeg" alt="Website project 1">
+          </div>
+          <h3>WEBSITE PROJECT 1</h3>
+        </a>
+        <a href="mikha.jpeg" class="project">
+          <div class="placeholder project-img">
+            <img src="mikha.jpeg" alt="Website project 2">
+          </div>
+          <h3>WEBSITE PROJECT 2</h3>
+        </a>
+        <a href="mikha.jpeg" class="project">
+          <div class="placeholder project-img">
+            <img src="mikha.jpeg" alt="Website project 3">
+          </div>
+          <h3>WEBSITE PROJECT 3</h3>
+        </a>
+        <a href="mikha.jpeg" class="project">
+          <div class="placeholder project-img">
+            <img src="mikha.jpeg" alt="Website project 4">
+          </div>
+          <h3>WEBSITE PROJECT 4</h3>
+        </a>
+      </div>
+
+      <div class="center-button">
+        <a href="mikha.jpeg" class="btn">VIEW MY PROJECT</a>
+      </div>
+    </section>
+
+   <!--======================================================= SKILLS SECTION =======================================================-->
+<section class="skills">
+  <h2 class="section-title">SKILLS</h2>
+  <span class="short-line center-line"></span>
+
+  <div class="skills-wrapper">
+    <span class="arrow arrow-left">&#8249</span>
+    <div>
+  
+    <span class="skill-icon">&#9638;</span>
+    <h3>WEB DEVELOPMENT</h3>
+    <p>HTML|CSS|JAVA|PHP</p>
+  </div>
+
+  <div class="skills-card">
+    <span class="skill-icon">&#9881;</span>
+    <h3>WEBSITE SETUP</h3>
+    <p>SSL | CPANEL | FTP | DOMAINS | WEB MAINTEANCE</p>
+  </div>
+
+<div class="skills-card">
+    <span class="skill-icon">&lt;/&gt;</span>
+    <h3>DESIGN TO CODE</h3>
+    <p>PSD TO HTML &amp; WP | FIGMA TO HTML</p>
+  </div>
+
+
+<div class="skills-card">
+    <span class="skill-icon">&#9998</span>
+    <h3>GRAPHIC DESIGNING</h3>
+    <p>SOSIAL MEDIA POSTER | WEB MOCKPUS | COLOR PALETTES | TOOLS: FIGMA &amp; CANVA</p>
+  </div>
+</div>
+  <span class="arrow arrow-right">&#8250;</span>
+  </div>
+</section>
+
+<!--=================================== CALL TO ACTION SECTION======================================-->
+
+<section class="cta">
+  <h2>Have A PROJECT IN MIND? LET'S BUILD SOMETHING GREAT TOGETHER.</h2>
+  <div class="buttons">
+    <a href="Acontact" class="btn btn-white">HIRE ME</a>
+    <a href="Awort" class="btn btn-white">VIEW MY WORK</a>
+  </div>
+</section>
+
+<footer class="footer" id="contact">
+  <div class="footer-left">
+    <h3 class="footer-name">Mikha Aginta Fransika Br Ginting</h3>
+    <p class="label">Web Developer &amp; Graphic Designer</p>
+    <p class="copyright">&copy; 2026 Mikha Aginta Fransika Br Ginting. ALL RIGHTS RESERVED.</p>
+  </div>
+  
+  <div class="footer-right">
+    <p><span class="icon">&#9993;</span>
+      <a href="mikha.aginta.f@mail.ukrim.ac.id">mikha.aginta.f@mail.ukrim.ac.id</p>
+    </p>
+    <p><span class="icon">IG</span>
+        <a href="@mikhaagintaa_" target="_blank">mikhaagintaa_</a>
+      </p>
+      <p><span class="icon"></span>
+        <a href="" target="_blank"></a>
+      </p>
+    </div>
+  </footer>
+
+</section>
+  </div>
+</body>
+</html>
